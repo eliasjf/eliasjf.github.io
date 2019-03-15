@@ -1,0 +1,16 @@
+.slider {
+  overflow-y: scroll;
+  outline: none;
+
+  .hidden {
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .visible {
+    opacity: 1;
+    height: auto;
+  }
+}
